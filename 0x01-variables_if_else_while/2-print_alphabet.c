@@ -11,9 +11,9 @@ int main(void)
 	char c = 'a';
 
 	do {
-		printf("%c", c);
+		putchar(c);
 		c++;
 	}  while (c != '{');
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
