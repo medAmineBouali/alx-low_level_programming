@@ -17,7 +17,7 @@ int main(void)
 	do {
 		putchar(C);
 		C++;
-	}  while (C != 'e');
+	}  while (C != 'g');
 	putchar('\n');
 	return (0);
 }
