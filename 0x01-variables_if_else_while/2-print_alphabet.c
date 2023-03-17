@@ -13,6 +13,6 @@ int main(void)
 	do {
 		printf("%c", c);
 		c++;
-	}  while (c != 'z');
+	}  while (c != '{');
 	return (0);
 }
