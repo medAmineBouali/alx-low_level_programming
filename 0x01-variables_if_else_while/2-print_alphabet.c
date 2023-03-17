@@ -14,5 +14,6 @@ int main(void)
 		printf("%c", c);
 		c++;
 	}  while (c != '{');
+	printf(" ");
 	return (0);
 }
