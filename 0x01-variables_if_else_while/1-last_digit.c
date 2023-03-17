@@ -3,16 +3,16 @@
 #include <time.h>
 #include <string.h>
 /**
- *  * * last_digit - Entry point
- *   * * Description:'the fun's description
- *    * * @b: describe the parameter
- *     * * Return: (Success)
- *     */
+ * * last_digit - Entry point
+ * * Description:'the fun's description
+ * * @b: describe the parameter
+ * * Return: (Success)
+ */
 int last_digit(int b)
 {
-	        int  last_digit = b % 10;
+	int  last_digit = b % 10;
 
-		        return (last_digit);
+	return (last_digit);
 }
 /**
  * * main - Entry point
