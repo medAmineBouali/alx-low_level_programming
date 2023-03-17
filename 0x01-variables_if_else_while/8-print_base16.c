@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char c = '1', C = 'a';
+	char c = '0', C = 'a';
 
 	do {
 		putchar(c);
