@@ -12,7 +12,7 @@ int main(void)
 
 	do {
 		putchar(c);
-		c++;
+		c--;
 	}  while (c != '`');
 	putchar('\n');
 	return (0);
