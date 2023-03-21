@@ -16,14 +16,3 @@ void print_alphabet(void)
 	}  while (c != '{');
 	putchar('\n');
 }
-/**
- * * main - Entry, point
- * * Description: Longer description of the function
- * * section header: Section description
- * * Return: Description of the returned value
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
