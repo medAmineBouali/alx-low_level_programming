@@ -18,8 +18,11 @@ void times_table(void)
 			if (j * i < 10)
 			{
 				t[2] = 48 + j * i;
+				if(j > 0)
+				{
 				_putchar(' ');
 				_putchar(' ');
+				}
 				_putchar(t[2]);
 			}
 			else
