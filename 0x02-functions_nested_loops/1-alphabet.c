@@ -22,7 +22,7 @@ void print_alphabet(void)
  * * section header: Section description
  * * Return: Description of the returned value
  */
-in main(void)
+int main(void)
 {
 	print_alphabet();
 	return (0);
