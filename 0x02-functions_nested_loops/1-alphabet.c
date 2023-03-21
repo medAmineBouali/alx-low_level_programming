@@ -8,6 +8,12 @@
  */
 int main(void)
 {
-	print_alphabet();
+	char c = 'a';
+
+	do {
+		putchar(c);
+		c++;
+	}  while (c != '{');
+	putchar('\n');
 	return (0);
 }
