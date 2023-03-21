@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_alphabet - Entry, point
+* print_alphabet_x10 - Entry, point
 * Description: Longer description of the function
 * section header: Section description
 * Return: Description of the returned value
