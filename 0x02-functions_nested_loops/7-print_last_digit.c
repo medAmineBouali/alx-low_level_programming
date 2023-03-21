@@ -10,10 +10,10 @@
 int print_last_digit(int b)
 {
 	int l;
-	
+
 	if (b < 0)
-                l = -b % 10;
-        else
+		l = -b % 10;
+	else
 	{
 		l = b % 10;
 	}
