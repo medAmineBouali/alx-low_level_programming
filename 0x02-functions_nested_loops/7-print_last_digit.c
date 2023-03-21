@@ -3,11 +3,11 @@
 /**
 * print_sign - Entry, point
 * Description: Longer description of the function
-* @n: The character to print last digit of
+* @b: The character to print last digit of
 * section header: Section description
 * Return: Description of the returned value
 */
-int print_sign(int n)
+int print_sign(int b)
 {
 	int  last_digit = b % 10;
 
