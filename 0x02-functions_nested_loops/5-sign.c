@@ -3,7 +3,7 @@
 /**
 * print_sign - Entry, point
 * Description: Longer description of the function
-* @c: The character to check
+* @n: The character to check
 * section header: Section description
 * Return: Description of the returned value
 */
