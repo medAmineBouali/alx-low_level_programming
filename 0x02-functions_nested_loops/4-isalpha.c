@@ -7,7 +7,7 @@
 * section header: Section description
 * Return: Description of the returned value
 */
-int _isalpha(char c)
+int _isalpha(int c)
 {
 	if (c > 96 && c < 123 || c > 64 && c < 91)
 		return (1);
