@@ -30,6 +30,7 @@ void times_table(void)
 				_putchar(t[1]);
 				_putchar(t[2]);
 			}
+			if (j < 9)
 			_putchar(',');
 		}
 		_putchar('\n');
