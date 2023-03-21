@@ -10,7 +10,7 @@
 int print_last_digit(int b)
 {
 	int n = abs(b);
-	int  last_digit = abs(n) % 10;
+	int  last_digit = n % 10;
 
 	_putchar(48 + last_digit);
 	return (last_digit);
