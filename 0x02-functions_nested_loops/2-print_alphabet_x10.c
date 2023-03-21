@@ -6,7 +6,7 @@
 * section header: Section description
 * Return: Description of the returned value
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char c = 'a';
 	int i = 0;
