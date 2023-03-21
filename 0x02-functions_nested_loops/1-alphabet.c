@@ -1,10 +1,11 @@
 #include <stdio.h>
-/**
- * print_alphabet - Entry, point
- * Description: Longer description of the function
- * section header: Section description
- * Return: Description of the returned value
- */
+#include "main.h"
+/*
+* print_alphabet - Entry, point
+* Description: Longer description of the function
+* section header: Section description
+* Return: Description of the returned value
+*/
 void print_alphabet(void)
 {
 	char c = 'a';
@@ -14,4 +15,15 @@ void print_alphabet(void)
 		c++;
 	}  while (c != '{');
 	putchar('\n');
+}
+/**
+ * * main - Entry, point
+ * * Description: Longer description of the function
+ * * section header: Section description
+ * * Return: Description of the returned value
+ */
+in main(void)
+{
+	print_alphabet();
+	return (0);
 }
