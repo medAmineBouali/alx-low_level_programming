@@ -16,7 +16,7 @@ int main(void)
 		b = n;
 		if (n >  4000000)
 			break;
-		else if ((n % 2) = 0)
+		else if ((n % 2) == 0)
 			i = i + n;
 	}
 	printf("%lu\n", i);
