@@ -33,9 +33,12 @@ void print_times_table(int n)
 					t[2] = 48 + ((j * i) - (j * i) % 10 - ((j * i) - (j * i) % 100)) / 10;
 					t[1] = 48 + ((j * i) - (j * i) % 100) / 100;
 				}
+				if (j > 0)
+				{
 				_putchar(t[0]);
 				_putchar(t[1]);
 				_putchar(t[2]);
+				}
 				_putchar(t[3]);
 				if (j < n)
 				_putchar(',');
