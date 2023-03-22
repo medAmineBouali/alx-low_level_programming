@@ -7,16 +7,16 @@
 */
 int main(void)
 {
-	int i=0;
+	int i = 0, j = 0;
 
 	while (i < 1024)
 	{
 		if ((i % 3) == 0 || (i % 5) == 0)
 		{
-			printf("%d", i);
+			j = j + i;
 		}
 		i++;
 	}
-	printf("\n");
+	printf("/d\n", j);
 	return (0);
 }
