@@ -7,7 +7,7 @@
 * section header: Section description
 * Return: Description of the returned value
 */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int i, j;
 	char t[4] = {' ', ' ', ' ', ' '};
