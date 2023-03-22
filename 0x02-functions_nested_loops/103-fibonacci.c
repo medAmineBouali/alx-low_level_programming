@@ -15,16 +15,10 @@ int main(void)
 		a = b;
 		b = n;
 		if (n >  4000000)
-		{
-			printf("\n");
 			break;
-		}
-		else
-		{
-			printf(", ");
-		i++;
-		printf("%lu", n);
-		}
+		else if ((n % 2) = 0)
+			i = i + n;
 	}
+	printf("%lu\n", i);
 	return (0);
 }
