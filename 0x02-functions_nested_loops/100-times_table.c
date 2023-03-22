@@ -17,7 +17,7 @@ void print_times_table(int n)
 		{
 			for (j = 0; j <= n; j++)
 			{
-			char t[4] = {' ', ' ', ' ', ' '}
+			char t[4] = {' ', ' ', ' ', ' '};
 				if (j * i < 10)
 				{
 					t[3] = 48 + j * i;
