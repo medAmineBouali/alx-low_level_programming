@@ -23,8 +23,9 @@ void print_times_table(int n)
 					t[3] = 48 + j * i;
 					if (j > 0)
 					{
-					_putchar(' ');
-					_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
 					}
 					_putchar(t[3]);
 				}
