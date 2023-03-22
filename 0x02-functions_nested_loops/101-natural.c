@@ -5,7 +5,7 @@
 * section header: Section description
 * Return: Description of the returned value
 */
-void main(void)
+int main(void)
 {
 	int i;
 	while (i < 1024)
@@ -15,4 +15,5 @@ void main(void)
 		i++;
 	}
 	printf("\n");
+	return (0);
 }
