@@ -41,8 +41,8 @@ void print_times_table(int n)
 				else
 				{
 					t[3] = 48 + (j * i) % 10;
-					t[2] = 48 + ((j * i) - t[3] + 48) / 10;
-					t[1] = 48 + ((j * i) - t[2] - t[3] + 96) / 100;
+					t[2] = 48 + ((j * i) - (j * i) % 10) / 10;
+					t[1] = 48 + ((j * i) - (j * i) % 100) / 100;
 					_putchar(' ');
 					_putchar(t[1]);
 					_putchar(t[2]);
