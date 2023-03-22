@@ -13,7 +13,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		n = a + b;
-		printf("%d", n);
+		printf("%lu", n);
 		a = b;
 		b = n;
 		if (i == 49)
