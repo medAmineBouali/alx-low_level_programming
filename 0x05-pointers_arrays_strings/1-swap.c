@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* void swap_int- Entry, point
+* swap_int- Entry, point
 * Description: Longer description of the function
 * @a: The adress to swap
 * @b: the 2md address to swap
@@ -13,5 +13,4 @@ void swap_int(int *a, int *b)
 	temp = *a;
 	*a = *b;
 	*b = temp;
-	
 }
