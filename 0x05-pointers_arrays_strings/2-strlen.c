@@ -3,7 +3,7 @@
 /**
 *_strlen- Entry, point
 * Description: Longer description of the function
-* @n: The adress to reset
+* @s: string to calculate lenght
 * section header: Section description
 * Return: Description of the returned value
 */
