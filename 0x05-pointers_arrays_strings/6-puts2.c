@@ -1,13 +1,13 @@
 #include <string.h>
 #include "main.h"
 /**
-*puts2- Entry, point
+* puts2- Entry, point
 * Description: Longer description of the function
 * @str: string to print
 * section header: Section description
 * Return: Description of the returned value
 */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	unsigned int i;
 
