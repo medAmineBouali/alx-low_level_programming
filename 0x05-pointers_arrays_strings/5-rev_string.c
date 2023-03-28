@@ -9,7 +9,7 @@
 */
 void rev_string(char *s)
 {
-	unsigned int i, j = strlen(s);
+	unsigned int i, j = strlen(s) - 1;
 	char tmp1, tmp2;
 
 	while (j != 0)
@@ -20,9 +20,8 @@ void rev_string(char *s)
 			tmp2 = s[i];
 			s[i] = tmp1;
 			tmp1 = tmp2;
-			s[0] = tmp1;
+			s[0] = tmp2;
 		}
 		j--;
 	}
-	_putchar('\n');
 }
