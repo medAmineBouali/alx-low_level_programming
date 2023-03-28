@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
 * print_rev- Entry, point
 * Description: Longer description of the function
