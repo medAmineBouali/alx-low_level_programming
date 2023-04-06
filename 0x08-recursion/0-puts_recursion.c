@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
 * _puts_recursion- Entry, point
 * Description: Longer description of the function
@@ -9,7 +10,7 @@
 */
 void _puts_recursion(char *s)
 {
-    if (!*s)
+    if (strlen(*s) = 0)
         return;
     _putchar(*s);
     s ++;
