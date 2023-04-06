@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 #include <stdio.h>
 /**
 * _puts_recursion- Entry, point
@@ -10,6 +9,8 @@
 */
 void _puts_recursion(char *s)
 {
+    if (*s == "")
+        return;
     _putchar(*s);
     s ++;
     if (*s != '\0')
