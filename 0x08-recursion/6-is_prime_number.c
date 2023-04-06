@@ -2,7 +2,6 @@ include "main.h"
 
 int call
 (int n, int i);
-
 /**
  * is_prime_number - says if an integer is a prime number or not
  * @n: number to evaluate
@@ -16,7 +15,6 @@ return (0);
 return (call
 (n, n - 1));
 }
-
 /**
  * call
  *  - calculate if a number is prime recursively
