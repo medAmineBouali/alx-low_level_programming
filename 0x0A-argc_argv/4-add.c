@@ -6,7 +6,7 @@
  * * Description:'the program's description'
  * * Return: Always 0 (Success)
 */
-int main(void)
+int main(int argc,char* argv[])
 {
 	char c = 'a';
 
