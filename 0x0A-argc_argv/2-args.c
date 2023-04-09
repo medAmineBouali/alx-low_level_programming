@@ -6,14 +6,14 @@
  * * Description:'the program's description'
  * * Return: Always 0 (Success)
 */
-int main(void)
+int main(int argc,char* argv)
 {
-	char c = 'a';
+	int i = 0;
 
-	do {
-		putchar(c);
-		c++;
-	}  while (c != '{');
-	putchar('\n');
+	while (i < argc)
+	{
+		printf("%s\n"argv[i])
+		i++;
+	}
 	return (0);
 }

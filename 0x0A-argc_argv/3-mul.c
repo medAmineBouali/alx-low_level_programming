@@ -6,18 +6,8 @@
  * * Description:'the program's description'
  * * Return: Always 0 (Success)
 */
-int main(void)
+int main(int argc,char* argv)
 {
-	char c = 'a', C = 'A';
-
-	do {
-		putchar(c);
-		c++;
-	}  while (c != '{');
-	do {
-		putchar(C);
-		C++;
-	}  while (C != '[');
-	putchar('\n');
+	printf("%d",atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
