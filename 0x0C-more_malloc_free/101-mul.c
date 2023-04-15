@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * malloc_checked - memory allocation using malloc
+ * main - Entry point
  * @b: number of bites
  * Return: pointer to allocated memory.
  */
-void *malloc_checked(unsigned int b)
+int mian(int b)
 {
 	void *ptr;
 
