@@ -4,11 +4,16 @@
  *print_dog - prints variables of type struct dog
  *@d: pointer to struct dog to initialize
  *
- *@owner: owner to initialize
  */
 void print_dog(struct dog *d)
 {
-	printf("Name = %s\n",d.name);
-	printf("Age = %lf\n",d.age);
-	printf("Owner = %s\n",d.owner);
+	if (d == NULL)
+		return;
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->owner = "(nil)";
+	printf("Name: %s\n", d.name);
+	printf("Age: %f\n", d.age);
+	printf("Owner: %s\n", d.owner);
 }
