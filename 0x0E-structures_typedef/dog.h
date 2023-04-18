@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stio.h>
 
-typedef struct dog 
+struct dog 
 {
 	char *name ;
 	float age;
 	char *owner;
-} dog;
+}
