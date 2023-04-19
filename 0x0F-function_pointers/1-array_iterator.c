@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 /**
  * print_name - Entry point
  * @name: string to add
@@ -9,11 +10,11 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
+	unsigned int i;
+
 	if (array == NULL || action == NULL || size == 0)
 		return;
-	int i;
-
 	for (i = 0; i != size; i ++)
-		action(array + i);
+		action(*(array + i));
 	return;
 }
