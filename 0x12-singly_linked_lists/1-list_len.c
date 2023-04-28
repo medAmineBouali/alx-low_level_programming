@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "lists.h"
 /**
-* list_len:  returns the number of elements in a linked.
-*
+* list_len - gives number of eleme in a list.
+* de
 * @h: pointer to the head of the list.
 * Return: the number of nodes in the list.
 */
