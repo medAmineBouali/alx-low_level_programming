@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
 /**
@@ -15,10 +14,10 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str != NULL)
 		{
-			print("[%d] %s", h->len, h->str);
+			printf("[%d] %s", h->len, h->str);
 		}
 		else
-			print("[0] (nil)");
+			printf("[0] (nil)");
 		number_of_nodes++;
 		h = h -> next;
 	}
