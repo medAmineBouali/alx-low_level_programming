@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -13,7 +14,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
-		prinf("%d/n", h->n);
+		prinft("%d/n", h->n);
 		nodes++;
 		h = h->next;
 	}
