@@ -7,7 +7,7 @@
 */
 int pop_listint(listint_t **head)
 {
-	const int = (*head)->n;
+	const int b = (*head)->n;
 	listint_t = tmp;
 
 	if (*head == NULL)
@@ -15,4 +15,5 @@ int pop_listint(listint_t **head)
 	tmp = *head->next;
 	free(*head);
 	*head = tmp;
+	return (b);
 }
