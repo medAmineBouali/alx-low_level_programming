@@ -5,16 +5,16 @@
  * @index: index.
  * Return: returns node at index.
 */
-istint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	int i= 0;
+	unsigned int i= 0;
 	listint_t *tmp;
 
-	if (!*head)
+	if (!head)
 		return (NULL);
 	while (i < index)
 	{
-		temp = head->next;
+		tmp = head->next;
 	}
-	return (tmep);
+	return (tmp);
 }
