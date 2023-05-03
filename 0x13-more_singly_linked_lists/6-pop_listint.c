@@ -7,7 +7,7 @@
 */
 int pop_listint(listint_t **head)
 {
-	const int b = (*head)->n;
+	int b = (*head)->n;
 	listint_t *tmp = (*head)->next;
 
 	if (!*head || !head)
