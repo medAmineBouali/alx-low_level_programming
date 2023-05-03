@@ -8,10 +8,8 @@
 int pop_listint(listint_t **head)
 {
 	const int b = (*head)->n;
-	listint_t = tmp;
+	listint_t *tmp;
 
-	if (*head == NULL)
-		return;
 	tmp = (*head)->next;
 	free(*head);
 	*head = tmp;
