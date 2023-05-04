@@ -9,6 +9,8 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int n, decimal = 0, p = 1;
 
+	if (b == NULL)
+		return (0);
 	for (n = 0; n <  strlen(b); n++)
 	{
 		if (b[n] != '0' && b[n] != '1')
