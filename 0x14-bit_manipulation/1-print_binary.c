@@ -20,4 +20,6 @@ void print_binary(unsigned long int n)
 				printf("%d",(byte >> j) & 1);
 		}
 	}
+	if (b == 0)
+		printf("0");
 }
