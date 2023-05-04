@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 		{
 			b = b + ((byte >> j) & 1);
 			if(b > 0)
-				printf("%d",(byte >> j) & 1);
+				_putchar(((byte >> j) & 1) ? '1' : '0');
 		}
 	}
 	if (b == 0)
