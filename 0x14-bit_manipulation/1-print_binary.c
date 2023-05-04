@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 
 	for (i = sizeof(unsigned long int) - 1; i >= 0; i--)
 	{
-		byte = ((char *)&n)[i];
+		byte = *(((char *)&n) + i);
 		for (j = 8; j >= 0; j--)
 		{
 			b = b + ((byte >> j) & 1);
