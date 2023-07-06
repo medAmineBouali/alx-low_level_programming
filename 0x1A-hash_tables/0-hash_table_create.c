@@ -10,9 +10,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
     size_t n;
     hash_table_t *hash_t = NULL;
-    hash_node_t *array = NULL;
     hash_t = (hash_table_t *)malloc(sizeof(hash_table_t));
-    array = (hash_node_t *)malloc(sizeof(hash_node_t));
 
     if(size = 0)
     {
@@ -20,12 +18,16 @@ hash_table_t *hash_table_create(unsigned long int size)
         return(NULL);
     }
 
-    if(!array || !hash_t)
+    if(!hash_t)
     {
         fprintf(stderr, "could not allocate memory");
         return(NULL);
     }
     hash_t->size = size;
-    hash_t->array = array;
+    hash_t->array = malloc(sizeof(hash_node_t *) * size);
+    for(n=0; n < size; ++n)
+    {
+        hash_t->array[n] = NULL;
+    }
     return(hash_t);
 }
