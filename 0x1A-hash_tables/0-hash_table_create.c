@@ -9,13 +9,16 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
     size_t n;
+    hash_table_t *hash_t = NULL;
     hash_node_t *head = NULL;
     hash_node_t *new_node;
     head = (hash_node_t *)malloc(sizeof(hash_node_t));
+    hash_t = (hash_table_t *)malloc(sizeof(hash_table_t));
 
-    if(!head)
+
+    if(!head || !hash_t)
     {
-        fprintf(stderr, "could not allocate memory for head of the hash map");
+        fprintf(stderr, "could not allocate memory");
         return(NULL);
     }
     for (n = 0; n < size; n++)
@@ -29,5 +32,5 @@ hash_table_t *hash_table_create(unsigned long int size)
         head->next = new_node;
         free(new_node);
     }
-    return(head);
+    return(hash_t);
 }
