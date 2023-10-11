@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef _HASH_TABLES_H_
 #define _HASH_TABLES_H_
 
@@ -5,6 +6,12 @@
 #include <stdio.h>
 #include <string.h>
 
+=======
+#ifndef HASH_TABLES_H
+#define HASH_TABLES_H
+#include <stdlib.h>
+#include <stdio.h>
+>>>>>>> 17aa0819f20208fa9642c3b1aeeede3e2c74b1eb
 /**
  * struct hash_node_s - Node of a hash table
  *
@@ -15,9 +22,15 @@
  */
 typedef struct hash_node_s
 {
+<<<<<<< HEAD
 	char *key;
 	char *value;
 	struct hash_node_s *next;
+=======
+    char *key;
+    char *value;
+    struct hash_node_s *next;
+>>>>>>> 17aa0819f20208fa9642c3b1aeeede3e2c74b1eb
 } hash_node_t;
 
 /**
@@ -30,13 +43,19 @@ typedef struct hash_node_s
  */
 typedef struct hash_table_s
 {
+<<<<<<< HEAD
 	unsigned long int size;
 	hash_node_t **array;
+=======
+    unsigned long int size;
+    hash_node_t **array;
+>>>>>>> 17aa0819f20208fa9642c3b1aeeede3e2c74b1eb
 } hash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
+<<<<<<< HEAD
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 char *hash_table_get(const hash_table_t *ht, const char *key);
 void hash_table_print(const hash_table_t *ht);
@@ -87,3 +106,7 @@ void shash_table_print_rev(const shash_table_t *ht);
 void shash_table_delete(shash_table_t *ht);
 
 #endif /* _HASH_TABLES_H_ */
+=======
+
+#endif
+>>>>>>> 17aa0819f20208fa9642c3b1aeeede3e2c74b1eb

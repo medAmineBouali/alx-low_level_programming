@@ -1,0 +1,75 @@
+==> 2-str_concat.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> standard input <==
+  Return: a pointer to a new string, or NULL if it fails 
+ 
+
+==> 0-create_array.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 1-strdup.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 2-str_concat.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 3-alloc_grid.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 4-free_grid.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> README.md <==
+a description of the repository
+
+==> forcepush <==
+#!/bin/bash
+git add .
+
+==> k <==
+0x0B-malloc_free
+
+==> main.h <==
+char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
+
+==> 0-create_array.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 1-strdup.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 2-str_concat.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 3-alloc_grid.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> 4-free_grid.c <==
+#include "main.h"
+#include <stdlib.h>
+
+==> README.md <==
+a description of the repository
+
+==> forcepush <==
+#!/bin/bash
+git add .
+
+==> k <==
+0x0B-malloc_free
+
+==> main.h <==
+char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
