@@ -1,24 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <ctype.h>
 /**
  * * main - Entry point
  * * Description:'the program's description'
+ * *@argc: parametre
+ * *@argv: parametre
  * * Return: Always 0 (Success)
 */
-int main(int argc,char* argv[])
+int main(int argc, char *argv[])
 {
-	char c = 'a';
+        int sum = 0, i = 1;
 
-	do {
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-			c++;
-		}
-		else
-			c++;
-	}  while (c != '{');
-	putchar('\n');
-	return (0);
+        while (i != argc)
+        {
+                if (isdigit(*argv[i]))
+                        sum += atoi(argv[i]);
+                else
+                {
+                        printf("Error\n");
+                        return (1);
+                }
+                i++;
+        }
+        printf("%d", sum);
+        return (0);
 }
