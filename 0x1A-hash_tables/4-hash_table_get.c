@@ -7,6 +7,7 @@
  *
  * Return: value associated with key, or NULL if key cannot be found
  */
+
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int index;
